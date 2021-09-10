@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans,wght@0,800;1,700&display=swap');
+
+.about {
+    margin-left: 200px;
+}
+
+.about__me > h1 {
+    font-size: 60px;
+    color: #73AF59;
+    padding-top: 120px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about__me > p {
+    width: 40%;
+    font-size: 17px;
+    color: whitesmoke;
+    margin-top: 20px;
+}

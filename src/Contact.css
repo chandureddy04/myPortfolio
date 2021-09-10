@@ -1,0 +1,74 @@
+.contact {
+    margin-left: 200px;
+    display: flex;
+}
+
+.contact__title {
+    width: 40%;
+    padding-top: 150px;
+}
+
+.contact__title > h1 {
+    color: teal;
+    font-size: 50px;
+}
+
+.contact__title > p {
+    margin-top: 25px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.contact__form {
+    width: 50%;
+    padding-top: 150px;
+    margin-left: 20px;
+}
+
+.contact__form > form input {
+    border: 0;
+    background: #2b2b2b;
+    height: 50px;
+    font-size: 16px;
+    color: #8d8d8d;
+    padding: 0 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 10px
+}
+
+.name .email{
+    width: 50%;
+}
+
+.subject {
+    width: 100%;
+}
+
+.message {
+    width: 100%;
+    border: 0;
+    background: #2b2b2b;
+    height: 50px;
+    font-size: 16px;
+    color: #8d8d8d;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    min-height: 150px;
+    
+}
+
+.submit {
+    border: 1px solid whitesmoke;
+    background: none;
+    color: whitesmoke;
+    height: 50px;
+    width: 100px;
+    margin-left: 85%;
+}
+
+.subject:hover{
+    background: whitesmoke;
+    color: black;
+}
