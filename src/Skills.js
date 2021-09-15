@@ -19,31 +19,31 @@ function Skills() {
             </div>
             <div className='skills__details'>
                 <h4>C Programming</h4>
-                <div className="container">
+                <div className="skills__container">
                     <div className="skills__bar c">80%</div>
                 </div>
                 <h4>HTML5</h4>
-                <div className="container">
+                <div className="skills__container">
                     <div className="skills__bar html">80%</div>
                 </div>
 
                 <h4>CSS3</h4>
-                <div className="container">
+                <div className="skills__container">
                     <div className="skills__bar css">60%</div>
                 </div>
 
                 <h4>JavaScript</h4>
-                <div className="container">
+                <div className="skills__container">
                     <div className="skills__bar js">50%</div>
                 </div>
 
                 <h4>React Js</h4>
-                <div className="container">
+                <div className="skills__container">
                     <div className="skills__bar react">60%</div>
                 </div>
 
                 <h4>Node Js</h4>
-                <div className="container">
+                <div className="skills__container">
                     <div className="skills__bar node">40%</div>
                 </div>
 

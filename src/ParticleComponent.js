@@ -14,7 +14,7 @@ export default () => (
             params={{
                 "particles": {
                     "number": {
-                        "value": 50
+                        "value": window.innerHeight > 600 ? 50 : 20
                     },
                     "size": {
                         "value": 6

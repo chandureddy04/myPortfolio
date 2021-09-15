@@ -19,56 +19,93 @@
     font-size: 20px;
 }
 
-.contact__form {
+.container {
+    margin-top: 120px;
     width: 50%;
-    padding-top: 150px;
     margin-left: 20px;
-}
-
-.contact__form > form input {
-    border: 0;
-    background: #2b2b2b;
-    height: 50px;
-    font-size: 16px;
-    color: #8d8d8d;
-    padding: 0 20px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 10px
-}
-
-.name .email{
-    width: 50%;
-}
-
-.subject {
-    width: 100%;
-}
-
-.message {
-    width: 100%;
-    border: 0;
-    background: #2b2b2b;
-    height: 50px;
-    font-size: 16px;
-    color: #8d8d8d;
     padding: 20px;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    min-height: 150px;
-    
 }
 
-.submit {
-    border: 1px solid whitesmoke;
-    background: none;
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  background: #2b2b2b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form > button {
+  background-color: #1d1d1d;
+  color: #fff;
+  padding: 12px 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form > button:hover {
+  background-color: whitesmoke;
+  color: #111;
+}
+
+
+@media screen and ( max-width:600px) {
+    .contact {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact__title {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.contact__title > h1 {
+    color: teal;
+    font-size: 40px;
+}
+
+.contact__title > p {
+    margin-top: 20px;
     color: whitesmoke;
-    height: 50px;
-    width: 100px;
-    margin-left: 85%;
+    font-size: 20px;
 }
 
-.subject:hover{
-    background: whitesmoke;
-    color: black;
+.container {
+    margin-top: 30px;
+    width: 90%;
+}
+
+input[type=text], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0;
+  background: #2b2b2b;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+form > button {
+  background-color: #1d1d1d;
+  color: #fff;
+  padding: 12px 20px;
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+form > button:hover {
+  background-color: #fff;
+  color: #111;
+}
+
 }

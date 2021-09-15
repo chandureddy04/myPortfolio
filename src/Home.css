@@ -194,3 +194,65 @@
     border-color: tranparent;
   }
 }
+
+@media screen and (max-width : 600px) {
+  .home__title{
+  position: relative;
+  padding: 7.5rem 0 0 0;
+}
+
+
+.home__title h1 {
+  border-right: .15em solid orange;
+  font-family: 'Open Sans', sans-serif;
+  color: aliceblue;
+  font-size: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.home__title h1 span {
+    font-family: monospace;
+    margin-right: 0.20ch;
+    text-decoration: none;
+    font-size: 75px;
+    text-shadow: 5px 5px #08fdd8;
+    color: #fd2155;
+}
+.home > p {
+  margin-left: 20px;
+  margin-top: 20px;
+  opacity: 0;
+  position: relative;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #000, #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  animation-delay: 4.5s;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+.home button {
+  cursor: pointer;
+  font-family: sans-serif ;
+  letter-spacing: 0.25ch;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+  padding: 10px;
+  background: none;
+  width: 120px;
+}
+.home button:hover {
+background-color: #fff;
+}
+}

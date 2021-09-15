@@ -83,8 +83,9 @@ justify-content: space-evenly;
         right: 10px;
     }
 
-    
-
+    .header{
+        background: none;
+    }
     .header__top{
         display: none;
     }
@@ -93,8 +94,12 @@ justify-content: space-evenly;
     }
 
     .header__nav.active {
+        text-align: center;
+        margin-top: 50px;
         display: flex;
-        flex-direction: column;
+        flex-direction: column;  
+        background-color: #fff; 
+        width: 100vw;
     }
 
     

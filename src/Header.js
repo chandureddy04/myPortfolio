@@ -12,7 +12,7 @@ function Header() {
 
     }
     return (
-        <div className='header'>
+        <div className="header">
             <div className='header__navbar'>
                 <div className='header__top'>
                     <Link to='/'>

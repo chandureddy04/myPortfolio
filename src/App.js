@@ -8,6 +8,7 @@ import About from './About';
 import Contact from './Contact';
 import Education from './Education';
 import ParticleComponent from "./ParticleComponent";
+import Work from './Work';
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact />
+          </Route>
+          <Route path='/work'>
+            <Work />
           </Route>
           <Route path='/'>
             <Home />
